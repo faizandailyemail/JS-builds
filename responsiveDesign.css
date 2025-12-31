@@ -1,0 +1,105 @@
+/* Large tablets / small laptops (≤ 1200px) */
+@media (max-width: 1200px) {
+    .container {
+        width: 90vw;
+        height: calc(90vw * 0.5);
+        /* maintains ~995:500 ratio */
+    }
+}
+
+
+/* Tablets (≤ 900px) */
+@media (max-width: 900px) {
+    .container {
+        width: 95vw;
+        height: calc(95vw * 0.502);
+        border-width: 4px;
+        border-radius: 16px;
+    }
+
+    .person {
+        width: 260px;
+    }
+
+    .controller,
+    .book,
+    .paint,
+    .earth,
+    .basketBall {
+        width: 80px;
+    }
+
+    .pencil {
+        width: 40px;
+    }
+}
+
+
+/* Large phones (≤ 600px) */
+@media (max-width: 600px) {
+    .container {
+        width: 95vw;
+        height: calc(95vw * 0.55);
+        border-width: 3px;
+        border-radius: 12px;
+    }
+
+    .person {
+        width: 220px;
+    }
+
+    .controller,
+    .book,
+    .paint,
+    .earth,
+    .basketBall {
+        width: 65px;
+    }
+
+    .pencil {
+        width: 32px;
+    }
+
+    .leftHand {
+        width: 20px;
+    }
+
+    .rightHand {
+        width: 12px;
+    }
+}
+
+
+/* Small phones (≤ 400px) */
+@media (max-width: 400px) {
+    .container {
+        width: 100vw;
+        height: 60vw;
+        border-width: 2px;
+        border-radius: 10px;
+    }
+
+    .person {
+        width: 190px;
+    }
+
+    .controller,
+    .book,
+    .paint,
+    .earth,
+    .basketBall {
+        width: 55px;
+    }
+
+    .pencil {
+        width: 28px;
+    }
+
+    .leftHand {
+        width: 18px;
+    }
+
+    .rightHand {
+        width: 10px;
+    }
+}
