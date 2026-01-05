@@ -29,3 +29,24 @@ button {
     display: flex;
     margin: auto;
 }
+
+/* RESPONSIVE */
+@media (min-width: 250px) {
+    body {
+        width: 100%;
+        max-width: 1000px;
+        height: auto;
+        padding: 1rem;
+    }
+
+    button {
+        width: min(100%, 200px);
+        font-size: clamp(16px, 4vw, 20px);
+        margin: 20px 15px 0 15px;
+    }
+
+    .flexbox {
+        width: 100%;
+        max-width: 300px;
+    }
+}
